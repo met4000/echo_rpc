@@ -34,7 +34,7 @@ chrome.runtime.onMessage.addListener(function(info, sender, sendResponse) {
     let viewURL = getLectureLink();
     if (viewURL !== undefined) buttons.push({
       label: "View Lecture",
-      viewURL,
+      url: viewURL,
     });
 
     sendResponse({

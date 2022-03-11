@@ -13,6 +13,7 @@
     {
       "matches": ["*://*.echo360.net.au/lesson/*"],
       "js": [
+        "consts.js",
         "getters.js",
         "main.js"
       ]
