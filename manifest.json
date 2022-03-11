@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "echo360 RPC",
+  "version": "0.0.1",
+
+  "description": "",
+  "icons": { "128": "assets/echo360.128.png" },
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.echo360.net.au/lesson/*"],
+      "js": [
+        "getters.js",
+        "main.js"
+      ]
+    }
+  ]
+}
