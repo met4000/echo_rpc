@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "echo360 RPC",
-  "version": "0.0.2",
+  "version": "1.0.0",
 
   "description": "",
   "icons": { "128": "assets/echo360.128.png" },
@@ -14,6 +14,9 @@
       "matches": ["*://*.echo360.net.au/lesson/*"],
       "js": [
         "consts.js",
+        
+        "injection.js",
+
         "getters.js",
         "main.js"
       ]
