@@ -8,6 +8,6 @@
 - Injection of extra playback speeds into video playback settings.
 
 ## Setup
-Go to the [latest releases](../../releases/latest) page and download the zip file in the assets section - this will only include the resources needed by the chrome extension. In chrome, navigate to `chrome://extensions`, activate "Developer Mode", and drag and drop the zip file onto the page. Follow any prompts.
+Go to the [latest releases](../../releases/latest) page and download the zip file in the assets section - this will only include the resources needed by the chrome extension. To actually install the extension, in chrome navigate to `chrome://extensions`, activate "Developer Mode", and drag and drop the zip file onto the page. Follow any prompts.
 
 This extension uses the [Discord Rich Presence](https://chrome.google.com/webstore/detail/discord-rich-presence/agnaejlkbiiggajjmnpmeheigkflbnoo) extension for Discord RPC support. It won't work unless you install that extension (and application!) too.
