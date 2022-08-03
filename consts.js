@@ -23,7 +23,7 @@ const config = {
 };
 
 // usurp console
-const rawConsole = Object.fromEntries(["log", "warn", "error", "debug"].map(v => {
+const rawConsole = Object.fromEntries(["info", "log", "warn", "error", "debug"].map(v => {
   var ret = console[v].bind(console);
   console[v] = (...args) => rawConsole[v]("[ECHO360_RPC EXTENSION]", ...args);
   return [v, ret];

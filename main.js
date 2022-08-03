@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
   // Wait for presence Requests
   chrome.runtime.onMessage.addListener(function(info, sender, sendResponse) {
     if (info.action == messageType.RPC) {
-      console.log("Presence requested", info);
+      console.info("Presence requested", info);
       let buttons = [];
 
       let isPaused = getIsPaused();
